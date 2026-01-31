@@ -7,10 +7,22 @@ env/
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 
 # IDE
 .vscode/
 .idea/
+*.swp
 
 # Logs
 *.log
+
+# Build artifacts (keep docs/ for GitHub Pages)
+build/
+dist/
+*.spec
+*.exe
+web.zip
+
+# PyInstaller
+*.manifest
